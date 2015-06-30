@@ -1,0 +1,26 @@
+{
+  "name": "bg_browserstack",
+  "version": "0.0.1",
+  "description": "A series of scripst to automate BrowserStack testing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec",
+    "test:nyan": "./node_modules/.bin/mocha --reporter nyan"
+  },
+  "keywords": [
+    "testing",
+    "browserstack",
+    "browsers",
+    "automate"
+  ],
+  "author": "Matt Gifford <matt.gifford@berkeleygroup.co.uk>",
+  "license": "ISC",
+  "dependencies": {
+    "browserstack-webdriver": "^2.41.1"
+  },
+  "devDependencies": {
+    "lodash": "^3.9.3",
+    "mocha": "^2.2.5",
+    "require-directory": "^2.1.1"
+  }
+}
